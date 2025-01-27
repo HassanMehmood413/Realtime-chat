@@ -1,0 +1,59 @@
+# Ignore dependencies
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore build outputs
+dist/
+build/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore OS system files
+.DS_Store
+Thumbs.db
+
+# Ignore FastAPI specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+*.db
+*.sqlite
+
+# Ignore virtual environment
+venv/
+.env/
+.envrc
+.Python
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# Ignore test coverage files
+.coverage
+*.cover
+coverage/
+htmlcov/
+
+# Ignore Next.js and FastAPI deployment artifacts
+.vercel/
+.now/
+/.serverless/
